@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lembaga Studi Cerdas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-50 text-gray-800 scroll-smooth">
+
+  <!-- ===== HEADER ===== -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <!-- LOGO -->
+      <div class="flex items-center space-x-3">
+        <div class="bg-blue-700 text-white p-2 rounded-lg flex items-center justify-center w-10 h-10 text-2xl font-bold">📘</div>
+        <div>
+          <h1 class="text-2xl font-extrabold text-blue-800 leading-tight">StudiCerdas</h1>
+          <p class="text-sm text-gray-500 -mt-1">Belajar. Berkembang. Berprestasi.</p>
+        </div>
+      </div>
+
+      <!-- NAVIGATION -->
+      <nav>
+        <ul class="flex space-x-6 text-sm md:text-base font-medium">
+          <li><a href="#tentang" class="hover:text-blue-600">Tentang</a></li>
+          <li><a href="#program" class="hover:text-blue-600">Program</a></li>
+          <li><a href="#bimbingan" class="hover:text-blue-600">Bimbingan</a></li>
+          <li><a href="#daftar" class="hover:text-blue-600">Daftar</a></li>
+          <li><a href="#kontak" class="hover:text-blue-600">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="bg-gradient-to-r from-blue-700 to-indigo-700 text-white text-center py-20" id="beranda">
+    <div class="container mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Raih Masa Depan Cerah Bersama <span class="text-yellow-300">StudiCerdas</span>!</h2>
+      <p class="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
+        Lembaga pendidikan modern dengan pengajar profesional, metode interaktif, dan sistem pembelajaran berbasis teknologi.
+      </p>
+      <a href="#daftar" class="bg-yellow-400 text-blue-800 px-8 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">Daftar Sekarang</a>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG ===== -->
+  <section id="tentang" class="container mx-auto py-20 px-6">
+    <div class="text-center mb-12" data-aos="fade-down">
+      <h3 class="text-3xl font-bold text-blue-800 mb-4">Tentang Kami</h3>
+      <p class="text-gray-600 max-w-2xl mx-auto">
+        <strong>StudiCerdas</strong> adalah lembaga pendidikan yang berkomitmen menciptakan generasi unggul melalui pembelajaran yang menyenangkan, kreatif, dan berbasis teknologi digital.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-10 items-center" data-aos="fade-up">
+      <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" alt="Belajar" class="w-full max-w-sm mx-auto">
+      <div>
+        <h4 class="text-2xl font-semibold mb-3 text-indigo-700">Mengapa Memilih StudiCerdas?</h4>
+        <ul class="space-y-3 text-gray-700">
+          <li>✅ Pengajar profesional dan berpengalaman</li>
+          <li>✅ Kurikulum fleksibel & interaktif</li>
+          <li>✅ Akses kelas online 24 jam</li>
+          <li>✅ Konsultasi pribadi & mentoring</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAM ===== -->
+  <section id="program" class="bg-blue-50 py-20">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-10 text-blue-800" data-aos="fade-down">Program Pendidikan</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="zoom-in">
+          <img src="https://cdn-icons-png.flaticon.com/512/2921/2921226.png" class="w-20 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-blue-700 text-center">Kelas Reguler</h4>
+          <p class="text-gray-600 text-center">Pembelajaran tatap muka & online untuk SD hingga SMA dengan sistem personal learning.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="100">
+          <img src="https://cdn-icons-png.flaticon.com/512/906/906175.png" class="w-20 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-blue-700 text-center">Program Ujian & SNBT</h4>
+          <p class="text-gray-600 text-center">Kelas intensif untuk persiapan ujian nasional dan masuk perguruan tinggi favorit.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition" data-aos="zoom-in" data-aos-delay="200">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" class="w-20 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2 text-blue-700 text-center">Kelas Online Interaktif</h4>
+          <p class="text-gray-600 text-center">Belajar kapan saja melalui platform digital dengan video, kuis, dan bimbingan tutor langsung.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BIMBINGAN & FITUR ===== -->
+  <section id="bimbingan" class="container mx-auto py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10 text-indigo-700" data-aos="fade-down">Bimbingan & Fitur Unggulan</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-blue-600" data-aos="fade-up">
+        <h4 class="font-semibold text-lg mb-2">💬 Konsultasi Akademik</h4>
+        <p class="text-gray-600">Diskusikan kendala belajar dengan mentor profesional yang siap membantu kapan saja.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-green-600" data-aos="fade-up" data-aos-delay="100">
+        <h4 class="font-semibold text-lg mb-2">📚 Modul & E-Learning</h4>
+        <p class="text-gray-600">Akses ratusan materi pembelajaran digital dan latihan interaktif berbasis kurikulum nasional.</p>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-indigo-600" data-aos="fade-up" data-aos-delay="200">
+        <h4 class="font-semibold text-lg mb-2">🎯 Mentoring Karier</h4>
+        <p class="text-gray-600">Panduan menentukan jurusan dan arah karier sesuai minat serta potensi siswa.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FORM PENDAFTARAN ===== -->
+  <section id="daftar" class="bg-gradient-to-r from-blue-600 to-indigo-700 py-20 text-white">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-8">Formulir Pendaftaran Siswa Baru</h3>
+      <form class="max-w-xl mx-auto bg-white rounded-2xl p-8 text-gray-800 shadow-lg" data-aos="fade-up">
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Nama Lengkap</label>
+          <input type="text" class="w-full border border-gray-300 rounded-lg p-3" placeholder="Masukkan nama Anda" required>
+        </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded-lg p-3" placeholder="Masukkan email aktif" required>
+        </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Jenjang Pendidikan</label>
+          <select class="w-full border border-gray-300 rounded-lg p-3" required>
+            <option value="">Pilih jenjang</option>
+            <option>SD</option>
+            <option>SMP</option>
+            <option>SMA</option>
+          </select>
+        </div>
+        <div class="mb-4">
+          <label class="block font-semibold mb-1">Pesan / Catatan</label>
+          <textarea class="w-full border border-gray-300 rounded-lg p-3" rows="3" placeholder="Tuliskan pesan Anda..."></textarea>
+        </div>
+        <button type="submit" class="w-full bg-blue-700 text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Kirim Pendaftaran</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="kontak" class="bg-blue-900 text-white py-12 text-center">
+    <div class="container mx-auto px-6" data-aos="fade-up">
+      <h4 class="text-xl font-semibold mb-3">Hubungi Kami</h4>
+      <p>Email: <a href="mailto:info@studicerdas.id" class="underline">info@studicerdas.id</a></p>
+      <p>Telepon: (021) 1234-5678</p>
+      <div class="flex justify-center space-x-4 mt-4">
+        <a href="#" class="hover:text-blue-300">🌐 Website</a>
+        <a href="#" class="hover:text-blue-300">📘 Facebook</a>
+        <a href="#" class="hover:text-blue-300">📸 Instagram</a>
+      </div>
+      <p class="mt-6 text-sm text-gray-300">© 2025 StudiCerdas. Semua hak dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
+</body>
+</html>
+
